@@ -1,0 +1,126 @@
+.panelBlock {
+    width: 1200px;
+    height: max-content;
+    padding: 10px;
+    margin-top: 770px;
+    min-height: 500px;
+    transition-duration: 300ms;
+    transition-property: border;
+    border: 1px transparent solid;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.panelBlock:hover {
+    border: 1px red dashed;
+    transition-duration: 300ms;
+}
+
+.panelBlock__title {
+    width: 100%;
+    font-size: 70px;
+    text-align: start;
+    border-bottom: 1px white groove;
+}
+
+.panelBlock__button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 1px white groove;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+
+.panelBlock__button:hover {
+    border: 1px dashed greenyellow;
+}
+
+.panelBlock__container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    width: max-content;
+    height: min-content;
+    font-size: 30px;
+    padding: 5px;
+    transition-duration: 300ms;
+    transition-property: border;
+    border: 1px transparent solid;
+}
+
+.panelBlock__container:hover {
+    border: 1px red dashed;
+    transition-duration: 300ms;
+}
+
+.panelBlock__container__status {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.panelBlock__container__status-red {
+    border-radius: 50%;
+    background-color: red;
+    color: red;
+}
+
+.panelBlock__container__status-green {
+    border-radius: 50%;
+    background-color: green;
+    color: green;
+}
+
+.panelBlock__container__settings {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    padding: 10px;
+    height: min-content;
+}
+
+.panelBlock__container__settings:hover {
+    border: 1px dashed greenyellow;
+}
+
+.panelBlock__container__settings__title {
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+.panelBlock__container__settings__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.panelBlock__container__settings__container__change-map {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+.panelBlock__container__settings__container__change-map:hover {
+    border: 1px dashed greenyellow;
+}
+
+.panelBlock__container__settings__container__change-map__title {
+    text-align: start;
+    width: 100%;
+    font-size: 20px;
+}
+
+.panelBlock__container__settings__container__change-map__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

@@ -1,0 +1,20 @@
+@keyframes cursor-blink {
+    0.01% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    50.01% {
+        opacity: 1;
+    }
+}
+
+.cursor {
+    font-size: 16px;
+    font-weight: 100;
+    color: red;
+    opacity: 1;
+    transition-duration: 100ms;
+    animation: cursor-blink 1s linear infinite;
+}

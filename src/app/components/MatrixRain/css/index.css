@@ -1,0 +1,11 @@
+.matrix-rain {
+    width: 100%;
+    border-radius: 50px;
+    height: 100%;
+}
+
+/*@media (max-width: 500px) {*/
+/*    .matrix-rain{*/
+/*        height: 460px;*/
+/*    }*/
+/*}*/

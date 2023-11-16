@@ -1,0 +1,87 @@
+.featureBlock {
+    width: 90%;
+    height: 610px;
+    display: grid;
+    grid-template-rows: 60px 540px;
+    padding: 5px;
+    border: 1px transparent solid;
+    transition-duration: 300ms;
+    transition-property: border;
+}
+
+.featureBlock:hover {
+    border: 1px red dashed;
+    transition-duration: 300ms;
+}
+
+.featureBlock__title {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 20px;
+    font-size: 40px;
+}
+
+.featureBlock__container {
+    border-top: 2px white groove;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.featureBlock__container-el {
+    width: 100%;
+    height: 100%;
+    border: 1px transparent solid;
+    transition-duration: 300ms;
+    transition-property: border;
+    font-size: 28px;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.featureBlock__container-el div {
+    display: flex;
+    align-items: center;
+}
+
+.featureBlock__container-el div input {
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    border: none;
+    border-bottom: 1px red groove;
+    padding: 0 5px 0 5px;
+}
+
+.featureBlock__container-img {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.featureBlock__container-el div input:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.featureBlock__container-el:hover{
+    border: 1px red dashed;
+    transition-duration: 300ms;
+}
+
+.text-padding {
+    padding-left: 50px;
+}

@@ -1,0 +1,104 @@
+.login-console {
+    width: 800px;
+    height: 400px;
+    display: grid;
+    grid-template: 8% 92% / 100% ;
+    align-items: center;
+    justify-content: center;
+    border: 1px red groove;
+    box-shadow: rgb(117, 55, 55) 0px 8px 24px;
+}
+
+.login-console__header {
+    background-color: red;
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.login-console__main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 0 2px 3px;
+    font-size: 15px;
+    gap: 10px;
+}
+
+.login-console__main-el {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.login {
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.registration {
+    color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-form label {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.login-form label input {
+    background-color: black;
+    border: none;
+    color: red;
+    height: min-content;
+    padding: 0 5px 0 5px;
+    font-size: 15px;
+}
+
+.login-form label input:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.login-enter {
+    color: red;
+    cursor: pointer;
+}
+
+.login-route {
+    width: 100%;
+    margin-top: 160px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+@media (max-width: 840px) {
+    .login-console {
+        width: 100%;
+    }
+}
